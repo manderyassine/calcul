@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    margin: 0;
+}
+
+.calc {
+    border: 2px solid #ff0000;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 250px;
+}
+
+.screen {
+    background-color: #000000;
+    color: #fff;
+    text-align: right;
+    padding: 20px;
+    font-size: 2.5em;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.key {
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.calcul {
+    color: #ddd;
+    height: 80%;
+    display: inline-flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}

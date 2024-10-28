@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cool Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+   <h1 class="calcul">Calculator by bachir,fakher,yassine</h1>
+    <div class="calc">
+        <div class="screen" id="screen">0</div>
+        <div class="keys">
+            <button class="key" onclick="enterNumber('1')">1</button>
+            <button class="key" onclick="enterNumber('2')">2</button>
+            <button class="key" onclick="enterNumber('3')">3</button>
+            <button class="key" onclick="selectOperation('+')">+</button>
+            <button class="key" onclick="enterNumber('4')">4</button>
+            <button class="key" onclick="enterNumber('5')">5</button>
+            <button class="key" onclick="enterNumber('6')">6</button>
+            <button class="key" onclick="selectOperation('-')">-</button>
+            <button class="key" onclick="enterNumber('7')">7</button>
+            <button class="key" onclick="enterNumber('8')">8</button>
+            <button class="key" onclick="enterNumber('9')">9</button>
+            <button class="key" onclick="selectOperation('*')">*</button>
+            <button class="key" onclick="enterNumber('0')">0</button>
+            <button class="key" onclick="resetCalc()">C</button>
+            <button class="key" onclick="getResult()">=</button>
+            <button class="key" onclick="selectOperation('/')">/</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
